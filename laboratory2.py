@@ -11,7 +11,7 @@ from sklearn.metrics import roc_curve, precision_recall_curve
 
 
 print('1. Відкрити та зчитати файл з даними.')
-data = pd.read_csv('my_data.csv')
+data = pd.read_csv('KM_12_1.csv')
 
 print('2. Визначити збалансованість набору даних. Вивести кількість об’єктів кожного класу.')
 class_counts = data['GT'].value_counts()
